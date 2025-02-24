@@ -3,7 +3,7 @@ from pypokerengine.utils.card_utils import gen_cards, estimate_hole_card_win_rat
 
 NB_SIMULATION = 1000
 
-class HonestPlayer(BasePokerPlayer):
+class FishPlayer(BasePokerPlayer):
 
     def declare_action(self, valid_actions, hole_card, round_state):
         community_card = round_state['community_card']

@@ -6,6 +6,6 @@ def main():
   config.register_player(name="p2", algorithm=FishPlayer())
   config.register_player(name="p3", algorithm=FishPlayer())
   game_result = start_poker(config, verbose=1)
-
+  print(game_result)
 if __name__ == '__main__':
     main()
